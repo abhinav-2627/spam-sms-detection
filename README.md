@@ -26,7 +26,7 @@ cd spam-detector
 
 ### Setup MySQL Database (via XAMPP)
 
-Start XAMPP → Start Apache & MySQL.
+2.Start XAMPP → Start Apache & MySQL.
 
 Open http://localhost/phpmyadmin
 CREATE DATABASE spamdb;
@@ -39,13 +39,13 @@ CREATE TABLE messages (
     prediction VARCHAR(20) NOT NULL
 );
 
-## 4. Train the Model
+## 3. Train the Model
 
 Run the training script to generate spam_model.pkl and vectorizer.pkl:
 
 python train.py
 
-## 5. Run the Flask App
+## 4. Run the Flask App
 python app.py
 
 Dataset
