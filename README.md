@@ -54,6 +54,8 @@ Dataset used: spam.csv
 
 Labels: ham (not spam) = 0, spam = 1
 
-Contributing
+
+
+# Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you’d like to change.
