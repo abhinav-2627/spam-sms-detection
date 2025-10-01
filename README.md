@@ -24,9 +24,9 @@ All predictions are also stored in a **MySQL database (spamdb)**.
 git clone https://github.com/your-username/spam-detector.git
 cd spam-detector
 
-### Setup MySQL Database (via XAMPP)
+###  2.Setup MySQL Database (via XAMPP)
 
-2.Start XAMPP → Start Apache & MySQL.
+Start XAMPP → Start Apache & MySQL.
 
 Open http://localhost/phpmyadmin
 CREATE DATABASE spamdb;
